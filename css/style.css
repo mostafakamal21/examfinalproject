@@ -1,0 +1,156 @@
+/**
+* Template Name: My_iPortfolio - v1.0.0
+* Template URL: 
+* Author: Mostafa kamal
+* License: 
+*/
+
+/*--------------------------------------# General--------------------------------------*/
+
+ 
+
+
+body {
+   font-family: "Open Sans", sans-serif;
+  /* font-family: 'Pacifico', cursive;*/
+ 
+}
+
+.navbar-nav .active{
+  background-color: red;
+  padding: 0 15px;
+  border-radius: 30px;
+}
+header.sticky {
+    position: fixed;
+    background: rgb(220 210 210 / 50%);
+    left: 0;
+}
+header{
+  -webkit-position: absolute;
+  -moz-position: absolute;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 111;
+}
+.navbar{
+  padding: 0;
+  margin: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color:#000;
+  font-weight: bold;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.navbar-nav .nav-link{
+  padding: 25px;
+}
+.navbar .nav-link{
+  color:#000;
+  font-weight: 600;
+  padding: 25px;
+}
+.navbar-brand img{
+  width: 120px;
+  height: 60px;
+}
+.carousel-left h1{
+  color:#000;
+  font-weight: 700;
+}
+.btn-dark{
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.slider-img img{
+  width: 500px;
+  height: 400px;
+}
+
+/*.carousel-control-next, .carousel-control-prev {
+    color: #130000;
+    z-index: 111;
+}
+*/
+
+.carousel-control-next i{
+  position: absolute;
+  /*left: 130px*/;
+  right: 0;
+}
+.carousel-control-prev i{
+  position: absolute;
+  left: 0;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    background-color: #5f4949;
+    border-radius: 50px;
+}
+
+
+
+
+.carousel-control-next i, .carousel-control-prev i {
+    color: #170c0c;
+    z-index: 111;
+    font-size: 40px;
+}
+.card{
+  padding: 20px;
+ box-shadow: 5px 5px 15px lightgrey;
+ border-radius: 10px;
+ border:none;
+}
+.card-title h4{
+  color:#000;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 10px 0;
+  
+}
+.card img{
+  width: 100%;
+  height: 300px;
+}
+.price{
+  font-weight: 600;
+  font-size: 24px;
+}
+.smartphone{
+  position: relative;
+}
+.laptop-headig{
+  position: relative;
+}
+.cat-heading{
+  position: relative;
+}
+.under h1:after{
+  content:'';
+  position: absolute;
+  left: 45%;
+  top: 50px;
+  width: 100px;
+  height: 6px; 
+  background: #f2709c; 
+  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);  
+  background: linear-gradient(to right, #ff9472, #f2709c);
+  border-radius: 10px;
+}
+
+.cat-img img{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 3px 15px 3px 15px;
+  box-shadow: 5px 5px 15px lightgrey; 
+}
+.small-img{
+  margin-left: 80px;
+}
